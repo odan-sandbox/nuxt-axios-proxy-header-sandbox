@@ -40,7 +40,10 @@ export default {
   ],
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
-  axios: {},
+  axios: {
+    prefix: '/api'
+    // proxyHeaders: false
+  },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
